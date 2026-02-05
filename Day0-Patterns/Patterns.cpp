@@ -21,5 +21,6 @@ void fullpyramid(int n)
 int main()
 {
     // Pattern1: fullpyramid() 
+    
     fullpyramid(5);
 }
