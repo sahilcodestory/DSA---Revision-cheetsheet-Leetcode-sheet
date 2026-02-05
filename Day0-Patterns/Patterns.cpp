@@ -2,5 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<<"heloo"<<endl;
+    int n = 0;
+    while(n<5){
+        cout<<n<<endl;
+            n++;
+
+    }
 }
