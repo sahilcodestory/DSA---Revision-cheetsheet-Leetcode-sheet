@@ -111,7 +111,7 @@ using namespace std;
 
 //         cout << endl;
 //     }
-    
+
 // }
 
 // void MixPyramid(int n){
@@ -129,34 +129,85 @@ using namespace std;
 //     }
 // }
 
+// void MixDiamondPyramid(int n){
+//     for(int i = 0; i< n; i++){
+//         for(int j =0  ; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         for(int j = 0; j<2*i+1; j++){
+//             cout<<" ";
+//         }
+//          for(int j =0  ; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+//      for(int i = n-1; i>= 0; i--){
+//         for(int j =0  ; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         for(int j = 0; j<2*i+1; j++){
+//             cout<<" ";
+//         }
+//          for(int j =0  ; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
 
-void MixDiamondPyramid(int n){
-    for(int i = 0; i< n; i++){
-        for(int j =0  ; j<n-i; j++){
-            cout<<"*";
-        }
-        for(int j = 0; j<2*i+1; j++){
-            cout<<" ";
-        }
-         for(int j =0  ; j<n-i; j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-     for(int i = n-1; i>= 0; i--){
-        for(int j =0  ; j<n-i; j++){
-            cout<<"*";
-        }
-        for(int j = 0; j<2*i+1; j++){
-            cout<<" ";
-        }
-         for(int j =0  ; j<n-i; j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
+// void Fancy12Pattern(int n)
+// {
+//     for (int i = 0; i < n; i++)
+//     {
+//         for (int j = 0; j < 2 * i + 1; j++)
+//         {
+//             if (j % 2 == 0)
+//             {
+//                 cout << i+1;
+//             }
+//             else
+//             {
+//                 cout << "*";
+//             }
+//         }
+//         cout << endl;
+//     }
+// }
 
+// void FullFancy12Pattern(int n)
+// {
+//     for (int i = 0; i < n; i++)
+//     {
+//         for (int j = 0; j < 2 * i + 1; j++)
+//         {
+//             if (j % 2 == 0)
+//             {
+//                 cout << i+1;
+//             }
+//             else
+//             {
+//                 cout << "*";
+//             }
+//         }
+//         cout << endl;
+//     }
+//      for (int i = n; i > 0; i--)
+//     {
+//         for (int j = 0; j < 2 * i + 1; j++)
+//         {
+//             if (j % 2 == 0)
+//             {
+//                 cout << i+1;
+//             }
+//             else
+//             {
+//                 cout << "*";
+//             }
+//         }
+//         cout << endl;
+//     }
+// }
 int main()
 {
     // Pattern1: fullpyramid()
@@ -178,5 +229,17 @@ int main()
     // MixPyramid(5);
 
     // Pattern7 : MixDiamondPyramid()
-    MixDiamondPyramid(10);
+    // MixDiamondPyramid(10);
+
+    // Pattern8 : Fancy12Pattern()
+    // Fancy12Pattern(10);
+
+    //Pattern9:FullFancy12Pattern()
+    // FullFancy12Pattern(10);
+    char ch ='A'-1+1;
+    cout<<ch++;
+        cout<<ch++;
+
+            cout<<ch++;
+
 }
